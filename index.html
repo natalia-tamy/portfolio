@@ -7,10 +7,15 @@
   <meta keywords="Natalia Tamy, Desenvolvedora, Minas Programa, Portfolio">
   <title>
     Portfolio - Natalia Tamy Anabuki Tomo
-  </title> 
+  </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <navbar>
+  <nav class="menu">
     <ul>
       <li>
         <a href="#formacao">Formação</a>
@@ -22,16 +27,16 @@
         <a href="#contato">Contato</a>
       </li>
     </ul>
-  </navbar>
+  </nav>
   <main>
     <figure>
       <img src="./images/naty-perfil.jpg" alt="Foto de perfil da Natalia Tamy" width="200px" />
     </figure>
-    <h1>Natalia Tamy</h1>
-    <h2>Desenvolvedora BackEnd</h2>
-    <p> Texto descritivo </p>
+    <h1 class="title">Natalia Tamy</h1>
+    <h2 class="subtitle">Desenvolvedora BackEnd</h2>
+    <p class="intro"> Texto descritivo </p>
   </main>
-  <section id="formacao">
+  <section id="formacao" class="paragrafo">
     <h1>Formação</h1>
 <!-- "ol" ou "ul" servem para lista ordenada e lista não ordenada, respectivamente -->
     <ul>
@@ -59,7 +64,7 @@
       </li>
     </ul>
   </section>
-  <section id="portfolio">
+  <section id="portfolio" class="paragrafo">
     <h1>Portfólio</h1>
     <ul>
       <li>
@@ -88,7 +93,7 @@
       </li>
     </ul>
   </section>
-  <footer id="contato">
+  <footer id="contato" class="paragrafo">
     <div>
       <span class="fas fa-envelope-square"></span>
       <a href="mailto:natalia.anabuki@gmail.com" >natalia.anabuki@gmail.com</a>
