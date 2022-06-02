@@ -1,0 +1,43 @@
+.intro { 
+	background-color: black;
+	text-align: center;
+}
+
+.title {
+	color: white;
+}
+
+.subtitle {
+	color: white;
+}
+
+.lide {
+	color: #969995;
+	text-align: center;
+}
+
+.knowledge-list {
+	float: right;
+	display: inline-table;
+}
+
+.sublide {
+	background-color: #902F88;
+	display: flex;
+	justify-content: left;
+}
+
+.author {
+	color: #B373AB;
+	margin-left: 30px
+}
+
+.rodape {
+	background-color: #B8BDB5;
+	color: white;
+}
+
+.links {
+	justify-content: center;
+	display: inline-block;
+}

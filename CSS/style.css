@@ -8,8 +8,15 @@ li {
 
 .menu {
     background-color: #938DF8;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.lista-menu {
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    justify-content: space-evenly;}
 
 .menu li {
     list-style: none;
@@ -23,6 +30,19 @@ li {
     text-decoration: none;
 }
 
+.intro-content {
+    background-color: #EDEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 580px;
+    text-align: center;
+}
+
+.intro-content figure {
+    margin-bottom: 20px;
+}
+
 .title {
     font-weight: 700;
     font-size: 36px;
@@ -31,16 +51,40 @@ li {
 
 .subtitle {
     font-size: 24px;
-    color: #EDEAEA;
+    color: #C5C0C0;
+    margin-bottom: 20px;
 }
 
 .intro {
     font-family: 'AbeeZee', sans;
     color: #000000;
     font-size: 16px;
+    max-width: 490px;
+    justify-content: space;
 }
 
 section h1 {
     font-size: 24px;
     color: #49BFB3;
+    margin-right: 50px;
+}
+
+.conteudo {
+    display: flex;
+    max-width: 800px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#portfolio {
+    background-color: #EDEAEA;
+}
+
+.descricao {
+    font-size: 16px;
+    
 }
